@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         // Insert your bot's token here
-        String token = "ODkzNTcwODIwNzg4NjA5MDc1.YVdYrQ.pdfwJs9mC1VNH4Efjx_hMxQyQX0";
+        String token = "token";
 
         DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();
 
